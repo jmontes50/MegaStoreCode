@@ -7,8 +7,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
-      "@tests": path.resolve(__dirname, "./tests")
-    }
-  }
+      '@headlessui/react': '@headlessui/react/dist/index.esm.js',
+    },
+  },
 })
