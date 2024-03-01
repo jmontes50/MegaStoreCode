@@ -8,6 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@headlessui/react': '@headlessui/react/dist/index.esm.js',
+      '@mui/material': '@mui/material/esm',
     },
   },
 })
