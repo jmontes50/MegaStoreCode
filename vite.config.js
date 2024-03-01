@@ -9,6 +9,7 @@ export default defineConfig({
     alias: {
       '@headlessui/react': '@headlessui/react/dist/index.esm.js',
       '@mui/material': '@mui/material/esm',
+      'simple-image-magnifier/react': 'simple-image-magnifier/react/dist/index.esm.js',
     },
   },
 })
